@@ -1,0 +1,29 @@
+{
+    "extends":["rallycoding","plugin:react/recommended"],
+    "plugins":[
+        "react"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true,
+            "modules": true
+        }
+    },
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true,
+        "jquery": true,
+        "shared-node-browser": true
+    },
+    "rules": {
+        "react/require-extension":"off",
+        "import/no-extraneous-dependencies":"off",
+        "global-require":"off",
+        "react/prop-types":"off",
+        "import/no-unresolved":"off",
+        "max-len":"off",
+        "no-underscore-dangle":"off",
+        "import/no-named-as-default":"off"
+    }
+}
